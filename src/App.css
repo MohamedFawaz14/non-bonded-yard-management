@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#010A1A;
+  font-family:"Courier New";
+}
+
+.app{
+  min-height:100vh;
+  background:#010A1A;
+  color:#C8E8FF;
+}
+
+.topbar{
+  height:70px;
+  background:#020D20;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 20px;
+  border-bottom:1px solid #0D3A6E;
+}
+
+.logo{
+  color:#00EFFF;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.version{
+  color:#38C8FF;
+}
+
+.tabs{
+  display:flex;
+  gap:10px;
+  padding:15px;
+  background:#04182E;
+}
+
+.tabs button{
+  background:#04182E;
+  color:#5AA8E0;
+  border:1px solid #0D3A6E;
+  padding:10px 20px;
+  cursor:pointer;
+}
+
+.tabs button.active{
+  background:#003F70;
+  color:#00EFFF;
+}
+
+.page{
+  padding:20px;
+}
+
+.card{
+  background:#031525;
+  border:1px solid #0D3A6E;
+  border-radius:10px;
+  padding:20px;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+  flex-wrap:wrap;
+}
+
+.controls button{
+  background:#003F70;
+  color:white;
+  border:none;
+  padding:10px 16px;
+  cursor:pointer;
+}
+
+.output{
+  margin-top:20px;
+  height:400px;
+  background:#020D20;
+  border:1px solid #0D3A6E;
+  padding:20px;
+}
+
+.reportTable{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+.reportTable th{
+  background:#021530;
+  color:#00EFFF;
+  padding:12px;
+  border:1px solid #0D3A6E;
+}
+
+.reportTable td{
+  padding:12px;
+  border:1px solid #0D3A6E;
+  color:#C8E8FF;
+}
+
+.reportTable tr:nth-child(even){
+  background:#04182E;
+}
+
+.reportTable tr:nth-child(odd){
+  background:#031525;
+}
